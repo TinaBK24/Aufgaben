@@ -1,0 +1,20 @@
+* {
+    margin-bottom: 20px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    background-color: linen;
+}
+
+section h1 {
+    background-color: lightblue;
+}
+
+article {
+    background-image: url("../img/eugene-golovesov-OP4itQPuMVo-unsplash.jpg");
+}

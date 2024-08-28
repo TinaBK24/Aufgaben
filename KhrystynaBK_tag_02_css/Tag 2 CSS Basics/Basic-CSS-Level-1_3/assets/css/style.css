@@ -1,0 +1,22 @@
+* {
+    background-color: lightgray;
+}
+
+nav a {
+    display: block;
+    padding: 0px 40px;
+    background-color: grey;
+    color: rgb(201, 30, 30);
+}
+
+section a {
+    color: chocolate;
+}
+
+span {
+    color: crimson;
+}
+
+img, section a {
+    display: block;
+}

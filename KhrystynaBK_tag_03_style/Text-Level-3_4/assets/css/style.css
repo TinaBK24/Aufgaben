@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "MonaspaceRadonVarVF[wght,wdth,slnt]";
+    src: url("../fonts/MonaspaceRadonVarVF[wght\,wdth\,slnt].ttf");
+}
+
+body {
+    font-family: "MonaspaceRadonVarVF[wght,wdth,slnt]";
+    background-color: rgba(99, 122, 72, 0.514);
+}
+
+h1 {
+    margin-top: 100px;
+    font-size: 10em;
+    font-weight: 700;
+    text-align: center;
+    color: #353531;
+    text-shadow: 5px 5px 0px #EC4E20, 10px 10px 0px #FF9505, 15px 15px 0px #016FB9, 20px 20px 0px #F2F3D9, 25px 25px 0px #7CB518;
+}

@@ -1,0 +1,77 @@
+
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url("../fonts/Montserrat-Bold.ttf");
+}
+
+* {
+    font-family: "Montserrat-Bold";margin: 0;
+    margin-bottom: 20px;
+}
+
+body {
+    width: 1000px;
+    padding: 50px;
+}
+
+h3::first-letter {
+    font-size: 3em;
+    color: #2e8b57;
+}
+
+h3:hover::first-letter {
+    color: #00ced1;
+}
+
+.blau::first-letter {
+    font-size: 2em;
+    color: #00bfff;
+    text-decoration: overline;
+}
+
+.rosa::first-letter {
+    font-size: 2em;
+    color: #c71585;
+    text-decoration: underline;
+}
+
+.grün::first-letter {
+    font-size: 2em;
+    color: #32cd32;
+    text-decoration: line-through;
+}
+
+.grün {
+    text-decoration: line-through;
+}
+
+p {
+    font-size: 20px;
+}
+
+.ohne-hover {
+    text-indent: 50px;
+    color: rgb(79, 79, 79);
+}
+
+.ohne-hover::first-line {
+    font-size: 1.5em;
+
+}
+
+.mit-hover::first-line {
+    color: #2e8b57;
+}
+
+.mit-hover::first-letter {
+    font-size: 2em;
+    color: red;
+}
+
+.klein, .ohne-hover {
+    font-size: 0.8em;
+}
+
+.mit-hover:hover:first-line {
+    color: #483d8b;
+}

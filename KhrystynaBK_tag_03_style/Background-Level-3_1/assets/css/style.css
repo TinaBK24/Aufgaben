@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    height: 100vh;
+    background-image: url("../img/arafat-uddin-showrab-C4hTz6F4_qo-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+}

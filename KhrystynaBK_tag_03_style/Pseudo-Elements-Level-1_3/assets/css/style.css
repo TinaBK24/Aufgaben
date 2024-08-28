@@ -1,0 +1,131 @@
+body {
+    width: 500px;
+    margin: 0;
+    padding: 50px;
+}
+
+h1::first-letter {
+    font-size: 3em;
+    color: #00796B;
+}
+
+h1:hover::first-letter {
+    color: #4FC3F7;
+}
+
+li {
+    list-style: none;
+    font-weight: bold;
+}
+
+.fertig::before {
+    content: "";
+    background-image: url("../icons/check.png");
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    padding-right: 5px;
+}
+
+.fertig {
+    text-decoration: line-through;
+}
+
+.erste::after {
+    content: "";
+    background-image: url("../icons/gym.png");
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+
+}
+
+.zweite::after {
+    content: "";
+    background-image: url("../icons/bill.png");
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+.jetzt::before {
+    content: "";
+    background-image: url("../icons/doing.png");
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    padding-right: 5px;
+}
+
+.jetzt {
+    background-color: darkseagreen;
+}
+
+.dritte::after {
+    content: "";
+    background-image: url("../icons/dance.png");
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+.vierte::after {
+    content: "";
+    background-image: url("../icons/eat.png");
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+.weiter::before {
+    content: "";
+    background-image: url("../icons/no.png");
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    padding-right: 5px;
+}
+
+.weiter {
+    text-decoration: underline;
+}
+
+.fünfte::after {
+    content: "";
+    background-image: url("../icons/book.png");
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+.sechste::after {
+    content: "";
+    background-image: url("../icons/organize.png");
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}

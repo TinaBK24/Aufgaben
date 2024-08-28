@@ -1,0 +1,57 @@
+body {
+    width: 550px;
+    margin: 0 auto;
+}
+
+h1 {
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 15px;
+    border: dashed black;
+    text-align: center;
+}
+
+h2 {
+    width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    box-shadow: 0 0 15px black;
+    border-radius: 15px;
+    text-align: center;
+}
+
+h3 {
+    width: 120px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 15px;
+    border: thick double #74e016;
+    text-align: center;
+}
+
+p {
+    border: 3px solid rgb(255, 242, 0);
+    color: blueviolet;
+    padding: 10px 15px;
+}
+
+p::first-letter {
+    font-size: 2em;
+}
+
+p:hover::first-letter {
+    font-size: 3em;
+    color: red;
+}
+
+ul, ol {
+    width: 400px;
+    margin: 20px auto;
+    padding: 15px 20px;
+    border: dashed rgb(105, 213, 28);
+}
+
+li {
+    border-bottom: 2px solid green;
+}
