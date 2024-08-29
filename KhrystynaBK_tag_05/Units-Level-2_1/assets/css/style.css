@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 30px;
+}
+
+section{
+    border: 2px solid black;
+}
+
+ul{
+    list-style: none;
+    /* padding-inline-start: 1.2em; */
+}
+
+.pets li{
+    font-size: 0.8em;
+    line-height: 1.5em;
+}    
+.pets ul li ul {
+
+    padding-left: 20px;
+}
+
+.dog li::before{
+    content: "\1F436";
+}
+
+.cat li::before{
+    content: "\1F431";
+}
+
+.parrot li::before{
+    content: "\1F99C";
+}
+
+.snake li::before{
+    content: "\1F40D";
+}
+
+.lizzard li::before{
+    content: "\1F98E";
+}
