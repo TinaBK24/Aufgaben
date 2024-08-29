@@ -13,34 +13,30 @@ section{
 
 ul{
     list-style: none;
-    /* padding-inline-start: 1.2em; */
+    padding-inline-start: 1.2em;
 }
 
-.pets li{
+li{
     font-size: 0.8em;
     line-height: 1.5em;
-}    
-.pets ul li ul {
-
-    padding-left: 20px;
 }
 
-.dog li::before{
+.dog li::marker{
     content: "\1F436";
 }
 
-.cat li::before{
+.cat li::marker{
     content: "\1F431";
 }
 
-.parrot li::before{
+.parrot li::marker{
     content: "\1F99C";
 }
 
-.snake li::before{
+.snake li::marker{
     content: "\1F40D";
 }
 
-.lizzard li::before{
+.lizzard li::marker{
     content: "\1F98E";
 }

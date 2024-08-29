@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Alkatra-VariableFont_wght";
+    src: url("../fonts/Alkatra-VariableFont_wght.ttf");
+}
+
+*{
+    font-family: "Alkatra-VariableFont_wght";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body{
+    background-image: url("../img/reinis-birznieks-lu5uhEAy2lI-unsplash.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+main {
+    padding: 5%;
+}
+
+article{
+    padding: 2%;
+    margin: auto 100px;
+    background-color: rgb(196, 239, 244, 0.5);
+    border-radius: 5rem;
+}
+
+h1{
+    font-size: 2rem;
+    text-shadow: 2px 2px 0 white;
+    padding: 0 15%;
+}
+
+h2{
+    font-size: 1.5em;
+}
+
+p{
+    font-size: 14px;
+}

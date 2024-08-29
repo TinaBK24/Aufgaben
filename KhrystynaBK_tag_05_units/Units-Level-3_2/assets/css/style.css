@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+main{
+    background-image: url("../img/hana-banacka-1Q9pzAL0hvs-unsplash.jpg");
+    background-size: cover;
+    height: 100vh;
+    color:rgb(135, 206, 235, 0.7);
+    position: relative;
+}
+
+div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1{
+    font-size: 10em;
+}
+
+h2{
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(135, 206, 235);
+
+}
