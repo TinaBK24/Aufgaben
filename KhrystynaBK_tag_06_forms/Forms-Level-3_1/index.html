@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Forms-Level-3_1</title>
+</head>
+
+<body>
+    <section>
+        <div class="blau">
+            <h1>Sign Up Now!</h1>
+            <p>Sign up and tell us what you think of the site!</p>
+        </div>
+
+        <div class="weiß">
+            <ol>
+                <li>First Name & Address</li>
+                <div class="grau">
+                    <form action="">
+                        <fieldset>
+                            <div class="text">
+                                <label for="name">Your Full Name</label>
+                                <input type="text" name="name" id="name" required>
+                            </div>
+                            <div class="text">
+                                <label for="address">Address</label>
+                                <input type="text" name="address" id="address" required>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+                <li>Email & Phone</li>
+                <div class="grau">
+                    <form action="">
+                        <fieldset>
+                            <div class="text">
+                                <label for="email">Email Addresse</label>
+                                <input type="text" name="email" id="email" required>
+                            </div>
+                            <div class="text">
+                                <label for="phone">Phone Number</label>
+                                <input type="text" name="phone" id="phone" required>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+                <li>Passwords</li>
+                <div class="grau">
+                    <form action="">
+                        <fieldset>
+                            <div class="text">
+                                <label for="pass">Password</label>
+                                <input type="text" name="pass" id="pass" required>
+                            </div>
+                            <div class="text">
+                                <label for="confirm">Confirm Password</label>
+                                <input type="text" name="confirm" id="confirm" required>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </ol>
+            <div class="senden">
+                <button type="submit">Senden</button>
+                <div class="agree">
+                    <input type="checkbox" name="agree" id="agree" required>
+                    <label for="agree">You agree to our Terms and Policy.</label>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

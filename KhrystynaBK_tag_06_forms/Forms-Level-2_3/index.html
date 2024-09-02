@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Forms-Level-2_3</title>
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Register form</legend>
+
+            <section class="name-container">
+                <label for="name">Name</label>
+                <div>
+                    <input type="text" name="name" id="name" placeholder="Name" required>
+                </div>
+            </section>
+
+            <section class="surname-container">
+                <label for="surname">Surname</label>
+                <div>
+                    <input type="text" name="surname" id="surname" placeholder="Surname" required>
+                </div>
+            </section>
+
+            <section class="mail-container">
+                <label for="mail">Email</label>
+                <div>
+                    <input type="email" name="mail" id="mail" placeholder="Email" required>
+                </div>
+            </section>
+
+            <section class="gender-container">
+                <label>Gender</label>
+                <div class="gender-auswählen">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="male" value="male" checked required>
+
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="female" value="female" required>
+                </div>
+            </section>
+
+            <section class="picture-container">
+                <label for="picture">Picture</label>
+                <div>
+                    <input type="text" name="picture" id="picture" value="Datei auswählen" disabled>
+                    <p>Keine ausgewählt</p>
+                </div>
+            </section>
+
+            <section class="country-container">
+                <label for="country">Country</label>
+                <div>
+                    <select name="country" id="country" required>
+                        <option value="de">Germany</option>
+                        <option value="fr">France</option>
+                        <option value="usa">USA</option>
+                    </select>
+                </div>
+            </section>
+
+            <section class="languages-container">
+                <label for="languages">Preferred languages</label>
+                <div>
+                    <select name="languages" id="" size="4" multiple required>
+                        <option value="html">HTML</option>
+                        <option value="css">CSS</option>
+                        <option value="js">JS</option>
+                        <option value="react">React</option>
+                    </select>
+                    <p>(To choose more than one use cmd key)</p>
+                </div>
+            </section>
+
+            <section class="activity-container">
+                <label>Fieled of activity</label>
+                <div>
+                    <input type="checkbox" name="" id="it" value="IT">
+                    <label for="it">IT</label>
+                    <input type="checkbox" name="" id="design" value="Design">
+                    <label for="design">Design</label>
+                    <input type="checkbox" name="" id="other" value="Other">
+                    <label for="other">Other</label>
+                </div>
+            </section>
+
+            <section>
+                <button type="submit">Send</button>
+                <button type="reset">Cancel</button>
+            </section>
+        </fieldset>
+    </form>
+</body>
+
+</html>

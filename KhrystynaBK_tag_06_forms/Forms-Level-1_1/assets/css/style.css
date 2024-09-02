@@ -1,0 +1,63 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    padding: 50px 50px 5px 50px;
+    width: 400px;
+}
+
+fieldset{
+    border: none;
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0;
+}
+
+.name-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.name-container input{
+    width: 48%;
+    box-sizing: border-box;
+}
+
+span{
+    color: red;
+}
+
+.nachricht-container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    width: 400px;
+}
+
+.submit-container{
+    width: 395px;
+    margin-top: 20px;
+    margin-left: 50px;
+    padding: 5px;
+    background-color: cadetblue;
+    text-align: center;
+}
+
+input[type="submit"]{
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+}

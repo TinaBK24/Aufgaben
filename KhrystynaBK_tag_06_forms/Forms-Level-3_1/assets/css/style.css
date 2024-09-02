@@ -1,0 +1,101 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    width: 500px;
+    margin: 50px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #c2bfbf;
+    overflow: visible;
+}
+
+.blau{
+    padding: 20px 30px;
+    background-color: rgb(29, 166, 190);
+    border-radius: 10px 10px 0 0;
+    color: white;
+}
+
+.weiß{
+    padding: 20px;
+}
+
+ol li{
+    list-style: none;
+    counter-increment: list-counter;
+    margin-bottom: 5px;
+    position: relative;
+    color: rgb(28, 144, 165);
+    font-size: 1.2rem;
+}
+
+ol li::before {
+    content: counter(list-counter);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(29, 166, 190);
+    color: white;
+    text-align: center;
+    line-height: 25px;
+    position: absolute;
+    left: -35px;
+    top: 0;
+}
+
+fieldset{
+    border: none;
+}
+
+.grau{
+    background-color: rgb(211, 211, 211, 0.2);
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.text{
+    color: #797676;
+}
+
+.text label{
+    display: block;
+}
+
+.text input{
+    width: 100%;
+    height: 2rem;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 2px;
+    box-shadow: inset 0 1px 2px #c2bfbf;
+}
+
+.senden{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end
+}
+
+button{
+    border: none;
+    background-color: rgb(29, 166, 190);
+    border-radius: 5px;
+    color: white;
+    padding: 7px 17px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.agree label{
+    font-size: 0.8rem;
+}
