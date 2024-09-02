@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    width: 300px;
+    margin: 50px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background-color: rgb(24, 26, 24);
+}
+
+.obutton{
+    display: flex;
+}
+
+.obutton button{
+    flex: 1;
+    background: none;
+    border: none;
+}
+
+.obutton .os{
+    background-color: rgb(60, 179, 113);
+}
+
+.os, .ol{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.obutton a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.obutton .ol:hover{
+    background-color: rgb(32, 207, 32);
+}
+
+h1{
+    text-align: center;
+    color: white;
+    padding: 20px 0px;
+}
+
+.input input{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: none;
+}
+
+.input .inlinie{
+    display: flex;
+    gap: 5px;
+}
+
+.ubutton a{
+    display: flex;
+    justify-content: right;
+    font-size: 0.5rem;
+    color: darkgreen;
+    padding-top: 5px;
+}
+
+.ubutton button{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(60, 179, 113);
+    color: white;
+    padding: 10px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
