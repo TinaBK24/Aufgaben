@@ -1,0 +1,350 @@
+@font-face {
+    font-family: "Raleway-Regular";
+    src: url("../fonts/Raleway-Regular.ttf");
+}
+
+*{
+    font-family: "Raleway-Regular";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    min-width: 1200px;
+    width: 100%;
+    height: 76px;
+    padding: 0 15vw;
+    box-shadow: 0 1px 1px rgb(162, 158, 158);
+    background-color: white;
+    position: fixed;
+}
+
+nav{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.logo{
+    flex: 1;
+    text-decoration: none;
+    color: #666;
+    font-size: 1.5rem;
+}
+
+.logo:hover{
+    color: #333;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    
+}
+
+nav li{
+    list-style: none;
+}
+
+nav li a{
+    font-size: 0.8rem;
+    text-decoration: none;
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+}
+
+nav li a:hover{
+    color: #337ab7;
+}
+
+.see{
+    height: 115vh;
+    background-image: url("../img/page1.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
+.see h1{
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    color: white;
+    font-weight: normal;
+}
+
+.see p{
+    margin-bottom: 1rem;
+    font-size: 0.6rem;
+    color: white;
+}
+
+.buttons-container{
+    display: inline-flex;
+    gap: 10px;
+    height: 51px;
+}
+
+button{
+    width: 200px;
+    height: 55px;
+    color: white;
+    padding: 1rem;
+    cursor: pointer;
+    background-color: #745CF9;
+    border: none;
+    transition: background-color 0.5s ease;
+}
+
+button:hover{
+    background-color: rgb(64, 25, 205);
+}
+
+a{
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.buttons-container button:nth-of-type(2){
+    background: none !important;
+    border: 2px solid white !important;
+    transition: color 0.5s ease,background-color 0.5s ease, border 0.5s ease !important;
+}
+
+.buttons-container button:nth-of-type(2):hover{
+    color:black !important;
+    background-color: white !important;
+    border: none !important;
+}
+
+.links_img{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 70vh;
+    background-color: white;
+}
+
+.links_img img, .rechts_img img{
+    width: 50%;
+}
+
+.links_img div, .rechts_img div{
+    width: 25vw;
+}
+
+.links_img h2, .rechts_img h2, .cent_img h2{
+    font-size: 30px;
+    font-weight: 400;
+    color: #0E1015;
+    margin-bottom: 25px;
+    font-weight: normal;
+}
+
+.links_img p, .rechts_img p, .cent_img p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #8C979E;
+    margin-bottom: 35px;
+}
+
+.rechts_img{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 70vh;
+    background-color: #f5f5f5;
+}
+
+.parallax-section {
+    height: 50vh;
+    background-image: url('../img/parallax.jpeg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20vw;
+}
+
+.parallax-section h2{
+    font-size: 60px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 25px;
+    font-weight: normal;
+}
+
+.parallax-section p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 35px;
+}
+
+.cent_img{
+    text-align: center;
+    padding-top: 95px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cent_img p{
+    padding: 0 20vw;
+}
+
+.cent_img button{
+    margin-bottom: 25px;
+}
+
+.cent_img img{
+    height: 95vh;
+    display: block;
+    
+}
+
+.gallery-container{
+    padding-top: 95px;
+    background-color: #0E1015;
+    text-align: center;
+    padding-bottom: 115px;
+}
+
+.gallery-container h2, .himmel h2{
+    font-size: 30px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 25px;
+    font-weight: normal;
+}
+
+.gallery-container p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 45px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 115px 0;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.himmel{
+    height: 50vh;
+    background-image: url('../img/page7_1.jpeg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20vw;
+}
+
+.himmel p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.himmel img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+.photo p{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.mini_logos-container{
+    padding: 95px 10vw;
+    text-align: center;
+}
+
+.mini_logos-container h2{
+    font-size: 30px;
+    font-weight: 400;
+    color: #0E1015;
+    margin-bottom: 65px;
+    font-weight: normal;
+}
+
+.mini_logos{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mini_logos img{
+    width: 60px;
+    height: 60px;
+    gap: 0px;
+    opacity: 0.5;
+}
+
+.ohne_bild{
+    padding: 95px 10vw;
+    background-color: #F5F5F5;
+}
+
+.ohne_bild div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ohne_bild h2{
+    font-size: 30px;
+    font-weight: 400;
+    font-weight: normal;
+}
+
+.ohne_bild button{
+    width: 260px !important;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    height: 15vh;
+    background-color: #0E1015;
+    padding-left: 10vw;
+}
+
+footer p{
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
+
+footer span{
+    font-weight: bold;
+}
