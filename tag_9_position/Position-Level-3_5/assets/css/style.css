@@ -1,0 +1,139 @@
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url("../fonts/Montserrat-Regular.ttf");
+}
+
+*{
+    font-family: "Montserrat-Regular";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.rad{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/rad.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text{
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 15%;
+}
+
+.text h2{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 5vh;
+}
+
+.text p{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+nav{
+    width: 100%;
+    height: 71px;
+    background-color: hsla(0, 0%, 0%, 0.502);
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 0 5vw;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a{
+    color: #ffffff;
+}
+
+.logo{
+    flex: 2;
+    font-size: 32px;
+    font-weight: 700;
+    
+}
+
+nav ul{
+    list-style:none;
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav li:hover{
+    text-decoration:underline;
+    color:white;
+}
+
+.loc{
+    width: 100%;
+    padding-top: 20vh;
+}
+
+.loc h1{
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 3vh; 
+}
+
+.linie{
+    width: 100px;
+    height: 7px;
+    background-color:#333333;
+    margin: 2vh auto;;
+}
+
+.images{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 3vh 0;
+}
+
+.tour{
+    width: 100%;
+    padding-bottom: 5vh;
+}
+
+.tour h2{
+    margin-top: 15vh;
+    margin-bottom: 5vh;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.tour ul{
+    list-style: none;
+    margin-left: 10vw;
+}
+
+.tour li{
+    font-size: 16px;
+    font-weight: 100;
+    margin-bottom: 2vh;
+    color: #333333;
+}
+
+.tour .rot{
+    color: red;
+}
+
+.tour .grün{
+    color:green;
+}
