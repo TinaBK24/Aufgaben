@@ -1,0 +1,134 @@
+@font-face{
+    font-family: "Karla";
+    src: url("../fonts/Karla-Regular.ttf");
+}
+
+*{
+    font-family: "Karla";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html body{
+    width: 100%;
+}
+
+body{
+    padding: 9vh 2vw 0 2vw;
+}
+
+a{
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 0 2vw;
+    background-color: #fff;
+    z-index: 1000;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3vh 0;
+}
+
+nav a{
+    color:#323A45;
+    font-weight: bold;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 5vw;
+}
+
+nav ul a{
+    font-size: 0.8rem;
+}
+
+img{
+    width: 100%;
+    margin-bottom: 2vh;
+}
+
+.bild1, .bild{
+    transition: opacity 0.5s ease;
+}
+
+.bild1:hover, .bild:hover{
+    opacity: 0.5;
+}
+
+section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+    margin-bottom: 5vh;
+}
+
+.bild1{
+    grid-column: 1 / 4;
+}
+
+.text{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+h2{
+    font-size: 1.2em;
+    font-weight: 400;
+    color:#000000;
+}
+
+.text > h2{
+    text-align: right;
+}
+
+h3{
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #848484;
+    margin-bottom: 5vh;
+}
+
+footer{
+    font-weight: 400;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr 1fr);
+    gap: 2vw;
+    padding-bottom: 2vh;
+}
+
+h4{
+    font-size: 1.2em;
+    margin-bottom: 4vh;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+footer a, footer > p{
+    color: #656b72;
+}
+
+footer div:nth-child(even){
+    display: flex;
+    flex-direction: column;
+}
+
+.italic{
+    font-style: italic;
+}
