@@ -1,0 +1,54 @@
+:root{
+    --colorg:#008000;
+    --colorp:#800080;
+    --colorl:#483d8b;
+    --colory:#d7d74c;
+    --colorb:#000000;
+    --coloro:#ffa500;
+    --colordb:#00008b;
+    --colorhb:#00bfff;
+}
+
+body{
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+}
+
+section{
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+div{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+div:hover{
+    cursor: pointer;
+    box-shadow: 3px 5px 10px black;
+    transition: 0.5s;
+}
+
+#grün{
+    background-image: linear-gradient(to top right, var(--colorg) 50%, var(--colorp) 50%);
+}
+
+#lila{
+    background-image: linear-gradient(to top right, var(--colorl) 50%, var(--colory) 50%);
+}
+
+#schwarz{
+    background-image: linear-gradient(to top right, var(--colorb) 50%, var(--coloro) 50%);
+}
+
+#blau{
+    background-image: linear-gradient(to top right, var(--colordb) 50%, var(--colorhb) 50%);
+}
